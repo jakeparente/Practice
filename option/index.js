@@ -41,7 +41,6 @@ var test = function (num) {
         console.log("This is not a even number");
     }
 };
-test(3);
 var test2 = function (num) {
     var tester = exports.isEven(num);
     return exports.match(tester, function (num) {
@@ -50,4 +49,3 @@ var test2 = function (num) {
         return -1;
     });
 };
-console.log(test2(14));

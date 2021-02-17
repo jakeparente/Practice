@@ -71,4 +71,3 @@ const test2 = (num: number) => {
     }
   );
 };
-console.log(test2(14));
